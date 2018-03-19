@@ -62,7 +62,7 @@
                 box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
                 width: 150px;
                 height: 150px;
-                background: url(/img/me.jpg) 0px -4px / 150px no-repeat;
+                background: url(/img/me.jpg) 0px -6px / 140px no-repeat;
                 margin: auto;
                 cursor: pointer;
 
@@ -80,7 +80,7 @@
                 padding: 0px;
 
                 li {
-                    flex: 1 0 50%;
+                    flex: 1 0;
                     box-sizing: border-box;
                     vertical-align: middle;
                     display: inline-flex;
@@ -101,12 +101,23 @@
                 }
             }
 
+            .phrase {
+                font-family: 'Alegreya Sans', sans-serif;
+                color: #e0eff2;
+                font-weight: 100;
+                font-size: 30px;
+                text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+                display: block;
+                margin: 10px 0px;
+            }
+
             .name {
                 font-family: 'Alef', sans-serif;
                 color: #e0eff2;
                 font-weight: bold;
                 font-size: 26px;
                 text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+                display: block;
             }
 
         }

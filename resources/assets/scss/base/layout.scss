@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    outline: none;
+  }
+
+  body {
+      height: 100%;
+  }
+}
